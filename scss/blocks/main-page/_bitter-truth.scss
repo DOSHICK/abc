@@ -1,0 +1,21 @@
+.bitter-truth {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: url('../img/eye.svg'), url('../img/moon.svg');
+  background-position: top 0px right -70px, left -40px bottom 50px;
+  background-repeat: no-repeat;
+
+  .bitter-truth__img {}
+
+  .bitter-truth__text {
+    @include fontQuote;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,20 @@
+.output {
+  max-width: 600px;
+  padding: 40px 30px;
+  margin: 0 auto;
+
+  .output__table {
+    display: table;
+    background: #fff;
+    tr{
+      display: table-row;
+      td{
+        padding: 5px 10px 5px 10px;
+        vertical-align: top;
+        display: table-cell;
+        word-wrap: break-word;
+        max-width: 400px;
+      }
+    }
+  }
+}

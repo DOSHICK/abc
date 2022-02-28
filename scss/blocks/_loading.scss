@@ -1,0 +1,18 @@
+.loading.test-list__item.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+
+  .loading__img {}
+
+  .loading__desctiption {
+    margin: 30px 0px 0px 0px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.6);
+
+  }
+}

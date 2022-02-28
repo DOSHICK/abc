@@ -1,0 +1,12 @@
+.main-page{
+  background: none;
+  .test-list__item{
+    background: none;
+    height: unset;
+    width: 100%
+  }
+}
+@import "./offer";
+@import "./propose";
+@import "./passage";
+@import "./bitter-truth";

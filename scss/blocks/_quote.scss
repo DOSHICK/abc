@@ -1,0 +1,30 @@
+.quote {
+  width: 100%;
+  min-height: 120px;
+  color: $quoteText;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid $quoteBorder;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+  .quote__wrapper {
+    background: url('../img/eye.svg');
+    background-position: bottom 0px right 0;
+    background-repeat: no-repeat;
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .quote__text {
+      @include fontQuote;
+      padding: 35px 0px 20px 0px;
+      font-size: 25px;
+      line-height: 35px;
+      max-width: 480px;
+    }
+  }
+}

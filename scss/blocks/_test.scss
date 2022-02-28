@@ -1,0 +1,45 @@
+.test-list__item {
+  height: 100vh;
+  min-height: fit-content;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url('../img/moon.svg');
+  background-repeat: no-repeat;
+  background-position: bottom 85px left calc(50vw - 300px);
+  &.active{
+    display: flex;
+  }
+
+  .test-list__item-body {
+
+    width: 100%;
+
+    .test-title {
+      max-width: 500px;
+      margin: 70px auto 22px auto;
+      color: $testTitle;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .test-button-list {
+      margin: 0 auto;
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .btn {
+        margin: 0px 0px 20px 0px;
+      }
+      .inp {
+        margin: 0px 0px 20px 0px;
+        &.incorrect{
+          border: 1px solid #EE5353;
+        }
+      }
+    }
+  }
+}

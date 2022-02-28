@@ -1,0 +1,17 @@
+/*   basic styles   */
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/stable";
+/*   blocks styles   */
+@import "./blocks/quote";
+@import "./blocks/question-counter";
+@import "./blocks/test";
+@import "./blocks/main-page";
+@import "./blocks/loading";
+@import "./blocks/track";
+@import "./blocks/recording";
+@import "./blocks/end";
+@import "./blocks/output";
+

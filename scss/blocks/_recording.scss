@@ -1,0 +1,45 @@
+.recording.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .recording__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .recording__img {}
+
+    .recording__slider {
+      margin: 40px 0px 25px 0px;
+      width: 100%;
+      height: 4px;
+      background: url('../img/recording-loading.svg');
+    }
+
+    .recording__persents {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.6);
+
+    }
+
+    .recording__condition {
+      margin: 12px 0px 0px 0px;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.1em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}

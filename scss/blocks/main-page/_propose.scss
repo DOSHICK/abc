@@ -1,0 +1,32 @@
+.propose {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .propose__block {
+    border: 1px solid #FFFFFF;
+    position: relative;
+    max-width: 440px;
+    max-height: 440px;
+    padding: 120px 39px 80px 39px;
+    @media (max-width:500px){
+      max-height: fit-content;
+    }
+
+    .propose__img {
+      position: absolute;
+      left: 50%;
+      top: 0px;
+      transform: translate(-50%, -50%);
+    }
+
+    .propose__text {
+      color: #FFFFFF;
+      font-size: 25px;
+      line-height: 35px;
+      text-align: center;
+    }
+  }
+}
